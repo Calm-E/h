@@ -13,21 +13,23 @@
       h1 {
           text-align: center;
           position: relative;
-          background-color: transparent;
-          font-size: 5em;
-          margin-top: 1em;
+          
+          font-size: 2em;
+        
       }
      p.bl {
       display: flex;
-      text-align: left;
-      justify-content: left;
+      margin-left: auto;
+      margin-right: auto;
+      text-align: center;
+      justify-content: center;
       height: auto;
-     
-      width: 25em;
+      width: 50%;
+      padding: 40px;
    
-      border-top: 1px solid rgba(255, 255, 255, 0.5);
-      border-left: 1px solid rgba(255, 255, 255, 0.5);
-      backdrop-filter: blur(2px);
+
+   
+      backdrop-filter: blur(10px);
       border-radius: 25px;
       font-family: Calibri,Candara,Segoe,Segoe UI,Optima,Arial,sans-serif; 
       font-weight: bolder;
