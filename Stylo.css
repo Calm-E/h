@@ -8,13 +8,14 @@ img {
   border-radius: 25px;
 }
 body {
-  display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 100vh;
-  background-size: cover;
-  background-image: url(Future-1.jpg);
-  background-repeat: no-repeat;
+  /* min-height: 100vh !important; */
+  /* background-size:  !important; */
+  /* background */
+  background-attachment: fixed;
+  /* background-image: url(Future-1.jpg) !important; */
+  /* background-repeat: no-repeat !important; */
 }
 p {
   font-family: Calibri, Candara, Segoe, Segoe UI, Optima, Arial, sans-serif;
@@ -46,7 +47,7 @@ h3 {
   border-radius: 15px;
   background: rgba(255, 255, 255, 0.1);
   overflow: hidden;
-  display: flex;
+  display: grid;
   justify-content: center;
   align-items: center;
   border-top: 1px solid rgba(255, 255, 255, 0.5);
